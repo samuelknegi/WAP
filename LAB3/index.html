@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        body {
+            margin: 20px;
+            /* Adding margin to the whole body */
+        }
+
+        .center {
+            margin-left: auto;
+            margin-right: auto;
+        }
+
+        .my-table {
+            width: 80%;
+            margin-top: 20px;
+            /* Adding margin to the top of the table */
+            margin-bottom: 20px;
+            /* Adding margin to the bottom of the table */
+        }
+
+
+        .list-container {
+            display: flex;
+            justify-content: space-between;
+        }
+
+
+
+        table,
+        th,
+        td,
+        tr {
+            border: 1px solid;
+            border-collapse: collapse;
+        }
+
+        /* .space{
+            justify-content: space-between;
+        } */
+        #lastbutton {
+            padding-left: 500px;
+        }
+
+        .allbody {
+            border-left: thick;
+            border-left-color: black;
+        }
+    </style>
+</head>
+<div class="center">
+
+    <body class="allbody">
+        <ul class="list-container">
+            <li>Logo</li>
+            <li>Welcome Sami</li>
+            <li><button>Logout</button></li>
+        </ul>
+        <hr>
+
+
+        <h3>Product list</h3>
+        <table class="my-table">
+            <tr>
+                <th>Name</th>
+                <th>Price</th>
+                <th>stack</th>
+                <th>origin</th>
+
+            </tr>
+            <tr>
+                <td>Apple</td>
+                <td>10.0</td>
+                <td>45</td>
+                <td>Mexico </td>
+            </tr>
+            <tr>
+                <td>Orange</td>
+                <td>4.5</td>
+                <td>30</td>
+                <td>Us</td>
+            </tr>
+            <tr>
+                <td>Banana</td>
+                <td> 3.5</td>
+                <td>89</td>
+                <td>Mexico</td>
+            </tr>
+        </table>
+</div>
+<h3>Your Shopping Cart</h3>
+<div class="center">
+    <table class="shift-space">
+        <tr>
+            <th>Name</th>
+            <th>Price</th>
+            <th>Quantity</th>
+            <th>Total</th>
+        </tr>
+        <tr>
+            <td>Apple</td>
+            <td>10.0</td>
+            <td>3</td>
+            <td>30</td>
+        </tr>
+        <tr>
+            <td>Orange</td>
+            <td>4.5</td>
+            <td>4</td>
+            <td>18</td>
+        </tr>
+        <tr>
+            <td>Banana</td>
+            <td>3.5</td>
+            <td>1</td>
+            <td>3.5</td>
+
+        </tr>
+
+        <tr>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td>Total=$51.5</td>
+        </tr>
+    </table>
+
+    <p id="lastbutton"><button>placeOrder</button></p>
+</div>
+</body>
+
+</html>
